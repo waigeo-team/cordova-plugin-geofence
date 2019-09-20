@@ -44,7 +44,7 @@
         <source-file src="src/android/ReceiveTransitionsIntentService.java" target-dir="src/com/cowbell/cordova/geofence" />
         <source-file src="src/android/RemoveGeofenceCommand.java" target-dir="src/com/cowbell/cordova/geofence" />
         <source-file src="src/android/TransitionReceiver.java" target-dir="src/com/cowbell/cordova/geofence"/>
-        <preference name="GMS_VERSION" default="+"/>
+        <preference name="GMS_VERSION" default="17.0.0"/>
 		<!--<preference name="GMS_VERSION" default="17.0.0"/> -->
         <framework src="com.google.android.gms:play-services-location:$GMS_VERSION" />
 		<framework src="com.google.code.gson:gson:+" />
